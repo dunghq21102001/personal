@@ -1,0 +1,408 @@
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .connection::after {
+        display: none;
+    }
+
+    #button-to-top.show {
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    #app {
+        height: 1950px;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .fixed-scroll {
+        width: 500px;
+        height: 10px;
+    }
+
+    .fixed-box {
+        display: flex;
+        flex-direction: row;
+        width: 510px;
+        height: 160px;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        top: -15px;
+        left: calc(50% - 189px);
+    }
+
+    .self,
+    .preference {
+        margin: 0;
+    }
+
+    .rainbow {
+        top: -5px;
+    }
+
+    .main-content {
+        margin-top: 170px;
+        left: -10%;
+    }
+
+    .row.did-it-row {
+        max-width: 553px;
+    }
+
+    .did-it-params .row {
+        max-width: 80%;
+        margin-left: 62px;
+    }
+
+    .did-it-services h1 {
+        margin-top: 3px;
+    }
+
+    .center {
+        width: 500px;
+        margin-top: -64px;
+    }
+
+    .center h1 {
+        font-size: 1rem;
+    }
+
+    figure.test img {
+        width: 100px;
+        height: 100px;
+    }
+
+    figure.test:hover figcaption {
+        top: 50px;
+        left: 0;
+    }
+
+
+    .work-content {
+        font-size: 3rem;
+        margin-top: 24px;
+    }
+
+    div#timeline {
+        margin-top: 56px;
+    }
+
+    article h2 {
+        font-size: 3rem;
+    }
+
+    article p {
+        line-height: 110%;
+        font-size: 2rem;
+    }
+
+    article date {
+        font-size: 2rem;
+    }
+
+    .did-it-time {
+        font-size: 2rem;
+    }
+
+    .did-it-contents {
+        font-size: 1.8rem;
+    }
+
+    .did-it-sessions li {
+        margin-right: 10px;
+    }
+
+    .slideshow {
+        height: 70vh;
+    }
+
+    .item-header .vertical-part {
+        font-size: 4rem;
+    }
+
+    .vertical-part-size {
+        margin-top: -100px;
+    }
+
+}
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    #app {
+        height: 2000px;
+    }
+
+
+
+    .header {
+        height: 400px;
+        padding: 0;
+    }
+
+    .connection-info {
+        left: 0;
+        top: 210px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .fixed-scroll {
+        width: 300px;
+        height: 100px;
+    } */
+
+    .fixed-box {
+        display: flex;
+        width: 270px;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        left: 18px;
+        /* top: 0; */
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .rainbow {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        top: 24px;
+        left: 3px;
+    }
+
+    .fixed-text1,
+    .fixed-text2,
+    .fixed-text3,
+    .fixed-text4 {
+        display: none;
+    }
+
+    .self,
+    .preference {
+        margin: 0;
+    }
+
+    .self-icon {
+        font-size: 4rem;
+        position: absolute;
+        top: 8px;
+        left: 9px;
+    }
+
+    .connection-wrap-avatar {
+        width: 170px;
+        height: 170px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .connection-avatar {
+        top: 0;
+        left: 0;
+        position: static;
+    }
+
+    .main-content {
+        left: -10%;
+        height: 1490px;
+    }
+
+    .main-content.so1 {
+        height: 1180px;
+    }
+
+    .intro h1 {
+        font-size: 3rem;
+
+    }
+
+    .intro span {
+        margin: 0;
+        font-size: 1.6rem;
+    }
+
+    .intro-content {
+        font-size: 1.4rem;
+    }
+
+    .rainbow-line {
+        width: 150px;
+    }
+
+    .experience-h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .skills {
+        margin: 20px 0 0 20px;
+    }
+
+    .experience {
+        height: 270px;
+    }
+
+    .did-it-wrapper h1,
+    .did-it-wrapper .rainbow-line {
+        margin-left: 10px;
+    }
+
+    .did-it-wrapper h1 {
+        font-size: 3rem;
+    }
+
+    .project {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle3 {
+        display: none;
+    }
+
+    .did-it-params {
+        display: none;
+    }
+
+    .did-it-services h1,
+    .did-it-services .rainbow-line {
+        margin-left: 10px;
+    }
+
+    .center {
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .center .roww {
+        margin-top: 20px;
+    }
+
+    figure.test img {
+        width: 70px;
+        height: 70px;
+    }
+
+    figure.test:hover figcaption {
+        transform: translateX(-40%);
+        opacity: 1;
+        top: 10px;
+    }
+
+    .center h1 {
+        font-size: 1rem;
+    }
+
+    div#timeline .dot {
+        z-index: 5;
+    }
+
+    .education-content .education-title {
+        font-size: 2.5rem;
+    }
+
+    .checkcaption {
+        display: none;
+    }
+
+    .education-content h1 {
+        font-size: 3rem;
+    }
+
+    div#timeline .dot:nth-child(1) {
+        left: 10%;
+    }
+
+    div#timeline .dot:nth-child(2) {
+        left: 30%;
+    }
+
+    div#timeline .dot:nth-child(3) {
+        left: 50%;
+    }
+
+    div#timeline .dot:nth-child(4) {
+        left: 70%;
+    }
+
+    .work-content {
+        font-size: 3rem;
+    }
+
+    .did-it-time {
+        font-size: 1.5rem;
+    }
+
+    .did-it-contents {
+        font-size: 1.2rem;
+    }
+
+    div.mask article date,
+    article date {
+        font-size: 1.4rem;
+    }
+
+    div.mask article h2,
+    article h2 {
+        font-size: 2rem;
+    }
+
+    div.mask article p,
+    article p {
+        font-size: 1.4rem;
+    }
+
+    .formEntry {
+        min-width: 180px;
+    }
+
+    .name:hover {
+        width: 200px;
+    }
+
+    .formEntry:hover {
+        width: 200px;
+    }
+
+    .slideshow {
+        height: 75vh;
+    }
+
+    .vertical-part {
+        font-size: 1.4rem;
+    }
+
+    .item-header .vertical-part {
+        font-size: 3rem;
+    }
+
+    .vertical-part-size {
+        position: absolute;
+        top: -106px;
+    }
+
+    .main-content.so3 {
+        height: 1140px;
+    }
+
+
+}
